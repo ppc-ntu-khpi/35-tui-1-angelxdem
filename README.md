@@ -14,6 +14,7 @@
 Також зробила завдання на 4 бали, а саме:
 1. Переписала метод ShowCustomerDetails з використанням класів Bank, Customer, Account та ін. з наших попередніх лаб.
 
+````java
         private void ShowCustomerDetails() {
         TWindow custWin = addWindow("Customer Window", 2, 1, 40, 10, TWindow.NOZOOMBOX);
         custWin.newStatusBar("Enter valid customer number and press Show...");
@@ -53,7 +54,7 @@
             }
         });
         }
- 
+ ````
 
 Результат:
 ![image](https://github.com/ppc-ntu-khpi/35-tui-1-angelxdem/assets/113301385/94f01381-25f2-462c-8678-4b5b264d3f6b)
